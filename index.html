@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Резюме</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,600,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="resume" class="resume-grid">
+    <div class="left-col">
+      <div class="card profile-card profile-section">
+        <div class="profile-photo" id="profile-photo" title="Фото профиля">
+          <img src="img.jpg" alt="Фото профиля" class="profile-img" />
+        </div>
+        <div class="profile-info">
+          <div class="profile-hello">Привет <span>👋🏻</span> Я</div>
+          <div class="profile-name" contenteditable="true">Грэм Хант</div>
+          <div class="profile-role" contenteditable="true">Дизайнер брендов/логотипов</div>
+        </div>
+      </div>
+      <div class="card education-card education-section">
+        <div class="edu-block highlight">
+          <div class="edu-year" contenteditable="true">2024</div>
+          <div class="edu-title" contenteditable="true">UX/UI</div>
+          <div class="edu-tags" contenteditable="true">#UX #UI #исследования #дизайн-система #Agile #прототипирование #figma #ИИ</div>
+          <div class="edu-place" contenteditable="true">Neoland</div>
+        </div>
+        <div class="edu-block">
+          <div class="edu-year" contenteditable="true">2022</div>
+          <div class="edu-title" contenteditable="true">Продуктовый дизайнер</div>
+          <div class="edu-tags" contenteditable="true">#аналитика #исследования #прототип #вайрфреймы</div>
+          <div class="edu-place" contenteditable="true">Coursera</div>
+        </div>
+        <div class="edu-block">
+          <div class="edu-year" contenteditable="true">2017–2021</div>
+          <div class="edu-title" contenteditable="true">Графический дизайн</div>
+          <div class="edu-tags" contenteditable="true">#брендинг #веб #иллюстрация #adobe</div>
+          <div class="edu-place" contenteditable="true">Cali Institute of the Arts</div>
+        </div>
+      </div>
+      <div class="card tools-card tools-section">
+        <div class="tools-title">Инструменты</div>
+        <div class="tools-list">
+          <div class="tool-icon" title="Figma"><img src="icons/figma.png" alt="Figma"></div>
+          <div class="tool-icon" title="Photoshop"><img src="icons/PS.png" alt="Photoshop"></div>
+          <div class="tool-icon" title="Illustrator"><img src="icons/Ai.png" alt="Illustrator"></div>
+          <div class="tool-icon" title="Notion"><img src="icons/Notion.png" alt="Notion"></div>
+          <div class="tool-icon" title="Miro"><img src="icons/Miro.png" alt="Miro"></div>
+          <div class="tool-icon" title="Google Analytics"><img src="icons/Google.png" alt="Google Analytics"></div>
+          <div class="tool-icon" title="Webflow"><img src="icons/worldpress.png" alt="WordPress"></div>
+          <div class="tool-icon" title="Midjourney"><img src="icons/icons8-midjourney-480.png" alt="Midjourney"></div>
+          <div class="tool-icon" title="ChatGPT"><img src="icons/chatgpt.png" alt="ChatGPT"></div>
+        </div>
+      </div>
+    </div>
+    <div class="right-col">
+      <div class="card lang-card lang-section">
+        <div class="lang-title">Языки</div>
+        <div class="lang-list">
+          <div class="lang-item"><span>Английский</span><div class="lang-bar"><div class="lang-bar-fill" style="width: 95%"></div></div></div>
+          <div class="lang-item"><span>Испанский</span><div class="lang-bar"><div class="lang-bar-fill" style="width: 80%"></div></div></div>
+          <div class="lang-item"><span>Французский</span><div class="lang-bar"><div class="lang-bar-fill" style="width: 65%"></div></div></div>
+        </div>
+      </div>
+      <div class="card interests-card interests-section">
+        <div class="interests-title">Интересы</div>
+        <div class="interests-list">
+          <span class="interest-tag" contenteditable="true">брендинг</span>
+          <span class="interest-tag" contenteditable="true">айдентика</span>
+          <span class="interest-tag" contenteditable="true">логотипы</span>
+          <span class="interest-tag" contenteditable="true">типографика</span>
+          <span class="interest-tag" contenteditable="true">фотография</span>
+          <span class="interest-tag" contenteditable="true">дизайн</span>
+          <span class="interest-tag" contenteditable="true">постеры</span>
+          <span class="interest-tag" contenteditable="true">исследования</span>
+          <span class="interest-tag" contenteditable="true">соцсети</span>
+          <span class="interest-tag" contenteditable="true">иллюстрация</span>
+        </div>
+      </div>
+      <div class="card contact-card contact-section">
+        <div class="contact-message">Свяжитесь со мной! Я готов к интересным проектам</div>
+        <div class="contact-info">
+          <span contenteditable="true">ivannt19bj@gmail.com</span>
+          <span>|</span>
+          <span contenteditable="true">+34 666 666 666</span>
+        </div>
+      </div>
+      <div class="card experience-card experience-section">
+        <div class="exp-title">Опыт работы</div>
+        <div class="exp-list" id="exp-list">
+          <div class="exp-block highlight">
+            <div class="exp-row">
+              <div class="exp-date" contenteditable="true">Июль 2023 – Авг. 2023</div>
+              <div class="exp-label">последнее место</div>
+            </div>
+            <div class="exp-role" contenteditable="true">Старший графический дизайнер</div>
+            <div class="exp-company" contenteditable="true">Pinnacle | Полная занятость</div>
+            <ul class="exp-desc-list">
+              <li contenteditable="true">Исследование и генерация идей для контента и маркетинга.</li>
+              <li contenteditable="true">Проверка работ младших дизайнеров и обратная связь.</li>
+            </ul>
+          </div>
+          <div class="exp-block">
+            <div class="exp-date" contenteditable="true">Янв. 2021 – Июль 2023</div>
+            <div class="exp-role" contenteditable="true">Графический / Веб-дизайнер</div>
+            <div class="exp-company" contenteditable="true">Double Square | Полная занятость</div>
+            <ul class="exp-desc-list">
+              <li contenteditable="true">Разработка внутренних проектов с нуля, брендинг.</li>
+              <li contenteditable="true">Лендинги, сайты и гибридные приложения.</li>
+              <li contenteditable="true">Работа с заказчиками и принятие решений по продуктам.</li>
+            </ul>
+          </div>
+          <div class="exp-block">
+            <div class="exp-date" contenteditable="true">Фев. 2021 – Июль 2023</div>
+            <div class="exp-role" contenteditable="true">Графический дизайнер</div>
+            <div class="exp-company" contenteditable="true">Фриланс</div>
+            <ul class="exp-desc-list">
+              <li contenteditable="true">Визуальный дизайн для мероприятий, брендов и продуктов.</li>
+              <li contenteditable="true">Дизайн упаковки, продуктовый дизайн</li>
+              <li contenteditable="true">Разработка логотипов</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button id="download-btn" class="ripple main-btn">Скачать PDF</button>
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</body>
+</html> 
